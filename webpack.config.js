@@ -20,7 +20,8 @@ module.exports = () => {
             path: distPath
         },
         devServer: {
-            contentBase: distPath
+            contentBase: distPath,
+            watchContentBase: true
         },
         plugins: [
             new CleanWebpackPlugin(),
