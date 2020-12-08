@@ -1,0 +1,21 @@
+@import 'colors';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-position: -60% 200%, 150% -150%;
+    background-repeat: no-repeat;
+    background-color: $dark-cyan;
+    font-size: 14px;
+    color: $very-dark-desaturated-blue;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+@import 'card';
+@import 'profile';
+@import 'stats';

@@ -5,38 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<%=require('./images/favicon-32x32.png')%>">
 
   <title>Frontend Mentor | Profile card component</title>
 
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  Victor Crest
-  26
-  London
+  <div class="card-container">
+    <div class="card">
+      <img class="avatar" src="<%=require('./images/image-victor.jpg')%>">
 
-  80K
-  Followers
+      <div class="person">
+        <span class="name">Victor Crest</span>
+        <span class="age">26</span>
+      </div>
 
-  803K
-  Likes
+      <div class="city">
+        London
+      </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value">80K</div>
+          <div class="stat-name">Followers</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-value">803K</div>
+          <div class="stat-name">Likes</div>
+        </div>
+
+        <div class="stat">
+          <div class="stat-value">1.4K</div>
+          <div class="stat-name">Photos</div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 

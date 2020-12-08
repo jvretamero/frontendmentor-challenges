@@ -1,0 +1,27 @@
+.person {
+    text-align: center;
+    margin-bottom: 10px;
+
+    .name {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .age {
+        margin-left: .4rem;
+        font-size: 18px;
+        color: $dark-gray;
+    }
+}
+
+.city {
+    text-align: center;
+    color: $dark-gray;
+    margin-bottom: 22px;
+}
+
+.avatar {
+    margin: 88px auto 24px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
