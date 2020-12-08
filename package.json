@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "My challenges from [frontendmentor.io]",
   "scripts": {
-    "serve": "webpack serve"
+    "serve": "webpack serve",
+    "build": "webpack"
   },
   "author": "João Vitor Retamero",
   "license": "MIT",
