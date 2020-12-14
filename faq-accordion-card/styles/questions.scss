@@ -1,0 +1,37 @@
+.questions {
+    li {
+        list-style: none;
+        border-bottom: 1px solid $light-grayish-blue;
+        padding: 16px 0;
+
+        .question {
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-right: 12px;
+            padding-bottom: 12px;
+
+            h2 {
+                flex: 1;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            &.active {
+                h2 {
+                    color: $very-dark-desaturated-blue;
+                    font-weight: 700;
+                }
+
+                .question-arrow {
+                    transform: rotate(-180deg);
+                }
+            }
+        }
+
+        p {
+            color: $dark-grayish-blue;
+        }
+    }
+}

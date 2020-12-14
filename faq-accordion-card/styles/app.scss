@@ -1,0 +1,23 @@
+@import 'vars';
+@import 'card';
+@import 'questions';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+
+    height: 100vh;
+
+    color: $very-dark-grayish-blue;
+    background-image: linear-gradient($soft-violet, $soft-blue);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
